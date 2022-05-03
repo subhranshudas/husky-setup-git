@@ -3,7 +3,7 @@
 
 echo "\n\nRunning GIT pre-commit hook"
 
-echo "\n1) LINT..."
-yarn lint:fix
+echo "\n1) LINT staged..."
+yarn lint-staged
 echo "\n2) TESTS..."
 yarn test
