@@ -1,9 +1,9 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo "\n\nRunning GIT pre-commit hook"
+echo "\n\nRunning GIT pre-commit hook..."
 
-echo "\n1) LINT staged..."
+echo "\n1) LINT STAGED"
 yarn lint-staged
-echo "\n2) TESTS..."
+echo "\n2) TESTS"
 yarn test
